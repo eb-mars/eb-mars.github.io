@@ -4,3 +4,16 @@ theme: jekyll-theme-minimal
 title: Emily R. Bamber
 description: Geomorphologist
 logo: /assets/profile.JPG
+
+
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/emily-bamber-447a65171/"
+    - "https://github.com/eb-mars"
+    - "mailto:eb2043@cam.ac.uk"
+    - "https://orcid.org/0000-0002-3920-4970"
+    - "https://scholar.google.com/citations?user=PSM83ZsAAAAJ&hl=en"
