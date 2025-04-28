@@ -17,3 +17,22 @@ social:
     - "mailto:eb2043@cam.ac.uk"
     - "https://orcid.org/0000-0002-3920-4970"
     - "https://scholar.google.com/citations?user=PSM83ZsAAAAJ&hl=en"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:eb2043@cam.ac.uk
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=PSM83ZsAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/eb-mars"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/emily-bamber-447a65171/"
+    - label: "Curriculum Vitae (PDF)"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/bamber_cv.pdf"
