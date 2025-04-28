@@ -42,7 +42,7 @@ events:
 - image: "/assets/images/timeline/RGB_CAM.png"
   date: "Oct 2024 - Present"
   description: "Research Fellow in Earth Sciences, Trinity College, University of Cambridge"
-  - image: "/assets/images/timeline/RGB_UTA.png"
+- image: "/assets/images/timeline/RGB_UTA.png"
   date: "Aug 2024"
   description: "PhD, Geoscience, The University of Texas at Austin"
 - image: "/assets/images/timeline/RGB_Oxford.png"
