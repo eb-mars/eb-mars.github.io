@@ -1,0 +1,55 @@
+.grid-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    margin-bottom: 30px;
+}
+
+
+.img-box {
+    max-width: 500px;
+}
+
+.img-box img {
+    width: 100%;
+    height: auto; 
+}
+
+.caption {
+    color: teal;
+    text-align: center;
+}
+
+.text-box {
+    width: 100%;
+    padding: 10px;
+}
+
+.project-title {
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.description {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.description sup {
+    font-size:12;
+}
+
+.publication {
+    color: gray;
+    font-style: italic;
+}
+
+.publication a {}
+
+.link {
+    margin-top: 15px;
+

@@ -1,0 +1,103 @@
+.sidebar-container {
+    width: 365px;
+    flex-shrink: 0;
+
+    position: relative;
+    z-index: 100;
+}
+
+.profile-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 50px;
+    top: 20px;
+    color: rgb(58, 58, 58);
+    z-index: 100;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border-color: rgb(0, 128, 128);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.profile-pic-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+}
+
+.profile-name {
+    font-size: 22px;
+    color: rgb(20, 20, 20);
+}
+
+.profile-job1 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.profile-job2, .profile-job3 {
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(109, 109, 109);
+}
+
+.profile-socials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.profile-socials-mail, 
+.profile-socials-orcid, 
+.profile-socials-scholar, 
+.profile-socials-github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-socials-mail img, 
+.profile-socials-orcid img, 
+.profile-socials-scholar img, 
+.profile-socials-github img {
+    width: 30px;
+}
+
+.profile-socials-mail .hovertip, 
+.profile-socials-orcid .hovertip, 
+.profile-socials-scholar .hovertip, 
+.profile-socials-github .hovertip {
+    opacity: 0;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 35px;
+    text-align: center;
+    background: rgb(177, 177, 177);
+    border-radius: 5px;
+    padding: 4px;
+    white-space: nowrap;
+    transition: 0.15s;
+}
+
+.profile-socials-mail:hover .hovertip, 
+.profile-socials-orcid:hover .hovertip, 
+.profile-socials-scholar:hover .hovertip, 
+.profile-socials-github:hover .hovertip {
+    opacity: 1;
+    cursor: pointer
+
+}

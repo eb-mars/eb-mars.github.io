@@ -1,0 +1,85 @@
+body{
+    position: relative;
+    font-family: DM Sans, Arial;
+    color: black;
+    overflow-x: hidden;
+    padding: 0px;
+    background: rgb(255, 255, 255);  
+
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: DM Sans, Arial;
+    margin: 0px 0px 0px 0px;
+}
+
+.page {
+    flex: 1;
+    margin-top: 100px;
+    margin-right: 50px;
+    width: calc(100vw - 400px);
+    height: 100vh;
+    padding-left: 380px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.page-title {
+    text-align: start;
+    color: rgb(80, 80, 80);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.page-subtitle {
+    text-align: start;
+    color: rgb(128, 128, 128);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 40px 0px 10px 0px;
+    white-space: nowrap;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.page-content-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-right: 50px;
+}
+
+a:link {
+  color: rgb(0, 100, 100); 
+  font-weight: 700;
+}
+
+a:visited {
+  color: rgb(0, 50, 50); 
+  font-weight: 500;
+}
+
+a:hover {
+  color: teal;
+}
+
+a:active {
+  color: orange;
+}

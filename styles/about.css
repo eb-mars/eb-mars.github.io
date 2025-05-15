@@ -1,0 +1,60 @@
+.cv-link-about{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cv-link-about img{
+    width: 15px;
+    margin: 0px 2px;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.about-fig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-box img {
+    max-width: 150px;
+    margin-right: 10px;
+    height: auto;
+}
+
+.about-caption p,
+.about-caption i {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(129, 129, 129);
+
+    background-color: none;
+    display: inline-block;
+    padding-bottom: 5px;
+
+}
+
+.about-text {
+    background-color: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.about-text:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.about-text p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
