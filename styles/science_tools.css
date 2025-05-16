@@ -11,11 +11,16 @@
 
 .img-box {
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-box img {
-    width: 100%;
+    width: auto;
     height: auto; 
+    max-height: 250px;
 }
 
 .caption {
@@ -31,12 +36,17 @@
 .project-title {
     font-size: 26px;
     font-weight: 700;
+}
 
+.student-subtitle {
+    font-size: 16px;
+    color: gray;
 }
 
 .description {
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
+    margin-top: 10px;
 }
 
 .description sup {
@@ -46,10 +56,11 @@
 .publication {
     color: gray;
     font-style: italic;
+    margin-top: 10px
 }
 
 .publication a {}
 
 .link {
     margin-top: 15px;
-
+}
